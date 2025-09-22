@@ -1,0 +1,6 @@
+mkdir: cannot create directory ‘/work2/11018/zhc/stampede3/CaTiO3’: File exists
++ PREFIX=CTO
++ PSEUDO_DIR=/scratch/11018/zhc/assisgnment1/CaTiO3/
++ INFILE=CTO.in
++ OUTFILE=CTO.out
++ cat
