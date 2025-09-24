@@ -41,7 +41,7 @@ for i in $(seq 0 $((num_points-1))); do
     sed -i.bak "s|^results_folder[[:space:]]*=.*|results_folder=\\\$SCRATCH/cto_${idx}|" "$newfile"
 
     echo "sbatch $newfile" >> main.sh
-    echo "sleep 3" >> main.sh
+    echo "sleep 60" >> main.sh
 done
 
 echo "Done. Generated $num_points jobs."
