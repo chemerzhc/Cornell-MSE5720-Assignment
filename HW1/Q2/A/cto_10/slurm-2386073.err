@@ -1,0 +1,61 @@
+mkdir: cannot create directory ‘/scratch/11018/zhc/’: File exists
+mkdir: cannot create directory ‘/work2/11018/zhc/stampede3/CaTiO3’: File exists
++ PREFIX=CTO
++ PSEUDO_DIR=/scratch/11018/zhc/assisgnment1/CaTiO3/
++ INFILE=CTO.in
++ OUTFILE=CTO.out
++ cat
++ module purge
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module load intel/24.0 impi/21.11
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module load qe/7.3
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module list
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+
+Currently Loaded Modules:
+  1) intel/24.0   2) impi/21.11   3) qe/7.3
+
+ 
+
++ unset __lmod_sh_dbg
++ return 0
++ ibrun pw.x
++ rm '*.igk' '*.wfc*'
+rm: cannot remove '*.igk': No such file or directory
+rm: cannot remove '*.wfc*': No such file or directory
++ rm -r CTO.save
++ mv /scratch/11018/zhc/ /scratch/11018/zhc/results/CTO
+mv: cannot move '/scratch/11018/zhc/' to a subdirectory of itself, '/scratch/11018/zhc/results/CTO'
++ cd /scratch/11018/zhc/assisgnment1/CaTiO3
++ mv slurm-2386073.err slurm-2386073.out /scratch/11018/zhc/results/CTO
+mv: target '/scratch/11018/zhc/results/CTO' is not a directory
++ echo 'Copying results to /work2/11018/zhc/stampede3/CaTiO3 to save after job is done'
++ cp -rp /scratch/11018/zhc/results/CTO /work2/11018/zhc/stampede3/CaTiO3
+cp: cannot stat '/scratch/11018/zhc/results/CTO': No such file or directory
+++ date
+++ hostname
++ echo 'End: Fri Sep 19 09:25:08 AM CDT 2025 on c454-022.stampede3.tacc.utexas.edu'
