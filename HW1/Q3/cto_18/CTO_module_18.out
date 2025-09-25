@@ -1,7 +1,7 @@
-TACC:  Starting up job 2409253 
+TACC:  Starting up job 2410756 
 TACC:  Starting parallel tasks... 
 
-     Program PWSCF v.7.3 starts on 24Sep2025 at 14:49:58 
+     Program PWSCF v.7.3 starts on 24Sep2025 at 20:18:47 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -17,7 +17,7 @@ TACC:  Starting parallel tasks...
      Threads/MPI process:                     1
 
      MPI processes distributed on     1 nodes
-     189261 MiB available memory on the printing compute node when the environment starts
+     186369 MiB available memory on the printing compute node when the environment starts
  
      Waiting for input...
      Reading input from standard input
@@ -486,9 +486,9 @@ Warning: card / ignored
      XML data file, charge density, pseudopotentials, collected wavefunctions
  
      init_run     :      0.53s CPU      0.64s WALL (       1 calls)
-     electrons    :     13.27s CPU     13.94s WALL (       1 calls)
+     electrons    :     13.18s CPU     13.92s WALL (       1 calls)
      forces       :      0.24s CPU      0.24s WALL (       1 calls)
-     stress       :      1.87s CPU      1.91s WALL (       1 calls)
+     stress       :      1.85s CPU      1.90s WALL (       1 calls)
 
      Called by init_run:
      wfcinit      :      0.20s CPU      0.23s WALL (       1 calls)
@@ -496,26 +496,26 @@ Warning: card / ignored
      hinit0       :      0.15s CPU      0.18s WALL (       1 calls)
 
      Called by electrons:
-     c_bands      :      9.21s CPU      9.54s WALL (      13 calls)
-     sum_band     :      2.47s CPU      2.61s WALL (      13 calls)
+     c_bands      :      9.17s CPU      9.49s WALL (      13 calls)
+     sum_band     :      2.48s CPU      2.62s WALL (      13 calls)
      v_of_rho     :      0.05s CPU      0.05s WALL (      14 calls)
-     newd         :      1.57s CPU      1.78s WALL (      14 calls)
-     mix_rho      :      0.04s CPU      0.05s WALL (      13 calls)
+     newd         :      1.55s CPU      1.78s WALL (      14 calls)
+     mix_rho      :      0.04s CPU      0.04s WALL (      13 calls)
 
      Called by c_bands:
      init_us_2    :      0.16s CPU      0.16s WALL (     580 calls)
      init_us_2:cp :      0.16s CPU      0.16s WALL (     580 calls)
-     ccgdiagg     :      7.97s CPU      8.26s WALL (     260 calls)
-     wfcrot       :      1.31s CPU      1.37s WALL (     260 calls)
+     ccgdiagg     :      7.93s CPU      8.22s WALL (     260 calls)
+     wfcrot       :      1.30s CPU      1.36s WALL (     260 calls)
 
      Called by *cgdiagg:
-     h_psi        :      5.65s CPU      5.85s WALL (   16111 calls)
-     s_psi        :      0.94s CPU      0.97s WALL (   31962 calls)
+     h_psi        :      5.64s CPU      5.84s WALL (   16111 calls)
+     s_psi        :      0.94s CPU      0.98s WALL (   31962 calls)
 
      Called by h_psi:
      h_psi:calbec :      0.99s CPU      1.03s WALL (   16111 calls)
-     vloc_psi     :      3.95s CPU      4.09s WALL (   16111 calls)
-     add_vuspsi   :      0.55s CPU      0.57s WALL (   16111 calls)
+     vloc_psi     :      3.94s CPU      4.08s WALL (   16111 calls)
+     add_vuspsi   :      0.55s CPU      0.58s WALL (   16111 calls)
      hs_1psi      :      5.10s CPU      5.28s WALL (   15851 calls)
      s_1psi       :      1.24s CPU      1.28s WALL (   15851 calls)
 
@@ -523,15 +523,15 @@ Warning: card / ignored
      calbec       :      1.72s CPU      1.79s WALL (   32322 calls)
      fft          :      0.07s CPU      0.09s WALL (      90 calls)
      ffts         :      0.00s CPU      0.01s WALL (      27 calls)
-     fftw         :      3.09s CPU      3.19s WALL (   47782 calls)
+     fftw         :      3.08s CPU      3.18s WALL (   47782 calls)
      interpolate  :      0.01s CPU      0.02s WALL (      14 calls)
  
      Parallel routines
  
-     PWSCF        :     16.13s CPU     17.32s WALL
+     PWSCF        :     16.02s CPU     17.61s WALL
 
  
-   This run was terminated on:  14:50:16  24Sep2025            
+   This run was terminated on:  20:19: 4  24Sep2025            
 
 =------------------------------------------------------------------------------=
    JOB DONE.

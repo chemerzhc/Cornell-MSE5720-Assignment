@@ -47,11 +47,11 @@ cat > $INFILE << EOF
 /
 &SYSTEM
  ibrav=1,
- celldm(1)=7.3573d0,
+ celldm(1)=7.2015d0,
  nat=5,
  ntyp=3,
- ecutwfc=70,
- ecutrho=700,
+ ecutwfc=100,
+ ecutrho=1000,
  occupations = 'fixed'
 /
 &ELECTRONS
