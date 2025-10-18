@@ -1,0 +1,6 @@
+&PROJWFC
+ prefix='Si_bands',
+ Emin=-8, Emax=18, DeltaE=0.1
+ filpdos='Si_bands.pdos',
+ filproj='Si_bands.proj'
+/

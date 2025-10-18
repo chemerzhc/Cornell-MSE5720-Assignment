@@ -1,0 +1,5 @@
+&DOS
+ prefix='Si_bands',
+ fildos='Si_bands.dos'
+ Emin=-8, Emax=18, DeltaE=0.1 
+/
