@@ -1,0 +1,56 @@
+mkdir: cannot create directory ‘/work2/11018/zhc/stampede3/Si_scf’: File exists
++ PREFIX=Si_isotropic_eta0p002
++ PSEUDO_DIR=/scratch/11018/zhc/Assisgnment2/Q1/1A/energy_cutoff_test/
++ INFILE=Si_isotropic_eta0p002.in
++ OUTFILE=Si_isotropic_eta0p002.out
++ cat
++ module purge
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module load intel/24.0 impi/21.11
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module load qe/7.3
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module list
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+
+Currently Loaded Modules:
+  1) intel/24.0   2) impi/21.11   3) qe/7.3
+
+ 
+
++ unset __lmod_sh_dbg
++ return 0
++ ibrun pw.x
++ rm '*.igk' '*.wfc*'
+rm: cannot remove '*.igk': No such file or directory
+rm: cannot remove '*.wfc*': No such file or directory
++ rm -r Si_isotropic_eta0p002.save
++ mv /scratch/11018/zhc/Si_isotropic_eta0p002 /scratch/11018/zhc/Q2A_si
++ cd /scratch/11018/zhc/Assisgnment2/Q2/Si
++ mv slurm-2476656.err slurm-2476656.out /scratch/11018/zhc/Q2A_si
++ cp -rp /scratch/11018/zhc/Q2A_si /work2/11018/zhc/stampede3/Si_scf
+++ date
+++ hostname
++ echo 'End: Sat Oct 18 04:24:05 PM CDT 2025 on c455-102.stampede3.tacc.utexas.edu'
