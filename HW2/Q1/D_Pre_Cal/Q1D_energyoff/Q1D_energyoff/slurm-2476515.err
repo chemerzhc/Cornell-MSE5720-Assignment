@@ -1,0 +1,57 @@
+mkdir: cannot create directory ‘/work2/11018/zhc/stampede3/CaTiO3’: File exists
++ PREFIX=BTO_90
++ PSEUDO_DIR=/scratch/11018/zhc/Assisgnment2/Q1/1D/energy_off/
++ INFILE=BTO_90.in
++ OUTFILE=BTO_90.out
++ cat
++ module purge
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module load intel/24.0 impi/21.11
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module load qe/7.3
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module list
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+
+Currently Loaded Modules:
+  1) intel/24.0   2) impi/21.11   3) qe/7.3
+
+ 
+
++ unset __lmod_sh_dbg
++ return 0
++ ibrun pw.x
++ rm '*.igk' '*.wfc*'
+rm: cannot remove '*.igk': No such file or directory
+rm: cannot remove '*.wfc*': No such file or directory
++ rm -r BTO_90.save
++ mv /scratch/11018/zhc/bto_90 /scratch/11018/zhc/Q1D_energyoff
++ cd /scratch/11018/zhc/Assisgnment2/Q1/1D/energy_off
++ mv slurm-2476515.err slurm-2476515.out /scratch/11018/zhc/Q1D_energyoff
++ echo 'Copying results to /work2/11018/zhc/stampede3/CaTiO3 to save after job is done'
++ cp -rp /scratch/11018/zhc/Q1D_energyoff /work2/11018/zhc/stampede3/CaTiO3
+++ date
+++ hostname
++ echo 'End: Sat Oct 18 03:14:35 PM CDT 2025 on c454-101.stampede3.tacc.utexas.edu'

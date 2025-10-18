@@ -1,0 +1,56 @@
+mkdir: cannot create directory ‘/work2/11018/zhc/stampede3/SrTiO3’: File exists
++ PREFIX=BTO_k1
++ PSEUDO_DIR=/scratch/11018/zhc/Assisgnment2/Q1/1D/Kpoints/
++ INFILE=BTO_k1.in
++ OUTFILE=BTO_k1.out
++ cat
++ module purge
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module load intel/24.0 impi/21.11
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module load qe/7.3
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module list
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+
+Currently Loaded Modules:
+  1) intel/24.0   2) impi/21.11   3) qe/7.3
+
+ 
+
++ unset __lmod_sh_dbg
++ return 0
++ ibrun pw.x
++ rm '*.igk' BTO_k1.wfc1 BTO_k1.wfc10 BTO_k1.wfc2 BTO_k1.wfc3 BTO_k1.wfc4 BTO_k1.wfc5 BTO_k1.wfc6 BTO_k1.wfc7 BTO_k1.wfc8 BTO_k1.wfc9
+rm: cannot remove '*.igk': No such file or directory
++ rm -r BTO_k1.save
++ mv /scratch/11018/zhc/bto_k1 /scratch/11018/zhc/A2Q1D_kp
++ cd /scratch/11018/zhc/Assisgnment2/Q1/1D/Kpoints
++ mv slurm-2476546.err slurm-2476546.out /scratch/11018/zhc/A2Q1D_kp
++ echo 'Copying results to /work2/11018/zhc/stampede3/SrTiO3 to save after job is done'
++ cp -rp /scratch/11018/zhc/A2Q1D_kp /work2/11018/zhc/stampede3/SrTiO3
+++ date
+++ hostname
++ echo 'End: Sat Oct 18 03:25:26 PM CDT 2025 on c455-044.stampede3.tacc.utexas.edu'

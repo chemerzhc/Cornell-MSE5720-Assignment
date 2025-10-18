@@ -1,0 +1,46 @@
+&CONTROL
+ calculation = 'scf',
+ restart_mode = 'from_scratch',
+ prefix="BTO_k9",
+ pseudo_dir='/scratch/11018/zhc/Assisgnment2/Q1/1D/Kpoints/',
+ tstress=.true.,
+ tprnfor=.true.,
+ disk_io = 'low',
+/
+&SYSTEM
+ ibrav=1,
+ celldm(1)=7.67940d0,
+ nat=5,
+ ntyp=3,
+ ecutwfc=20,
+ ecutrho=200,
+ occupations = 'fixed'
+/
+&ELECTRONS
+ conv_thr = 1.0D-8,
+ mixing_mode = 'plain',
+ mixing_beta = 0.7d0,
+ diagonalization = 'cg',
+/
+&IONS
+ ion_dynamics='bfgs',
+/
+&CELL
+ cell_dynamics = 'bfgs',
+ press=0.d0,
+/
+ATOMIC_SPECIES
+ Ba 137.327d0 Ba_LDA.UPF 
+ Ti 47.88d0 Ti_LDA.UPF
+ O  16.00d0 O_LDA.UPF
+
+ATOMIC_POSITIONS crystal
+ Ba 0.d0 0.d0 0.d0
+ Ti 0.5d0 0.5d0 0.49d0
+ O 0.5d0 0.5d0 0.d0
+ O 0.5d0 0.d0 0.5d0
+ O 0.d0 0.5d0 0.5d0
+
+K_POINTS automatic
+  9 9 9 0 0 0
+
