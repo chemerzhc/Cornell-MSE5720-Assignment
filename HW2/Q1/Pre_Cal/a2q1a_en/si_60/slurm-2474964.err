@@ -1,0 +1,6 @@
+mkdir: cannot create directory ‘/work2/11018/zhc/stampede3/Si_scf’: File exists
++ PREFIX=Si_70
++ PSEUDO_DIR=/scratch/11018/zhc/Assisgnment2/Q1/1A/energy_cutoff_test/
++ INFILE=Si_70.in
++ OUTFILE=Si_70.out
++ cat
