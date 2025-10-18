@@ -1,0 +1,56 @@
+mkdir: cannot create directory ‘/work2/11018/zhc/stampede3/Si_scf’: File exists
++ PREFIX=Si_k7
++ PSEUDO_DIR=/scratch/11018/zhc/Assisgnment2/Q1/1A/energy_cutoff_test/
++ INFILE=Si_k7.in
++ OUTFILE=Si_k7.out
++ cat
++ module purge
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module load intel/24.0 impi/21.11
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module load qe/7.3
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module list
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+
+Currently Loaded Modules:
+  1) intel/24.0   2) impi/21.11   3) qe/7.3
+
+ 
+
++ unset __lmod_sh_dbg
++ return 0
++ ibrun pw.x
++ rm '*.igk' '*.wfc*'
+rm: cannot remove '*.igk': No such file or directory
+rm: cannot remove '*.wfc*': No such file or directory
++ rm -r Si_k7.save
++ mv /scratch/11018/zhc/si_k7 /scratch/11018/zhc/a2q1a_kp2
++ cd /scratch/11018/zhc/Assisgnment2/Q1/1A/k_points_test
++ mv slurm-2475243.err slurm-2475243.out /scratch/11018/zhc/a2q1a_kp2
++ cp -rp /scratch/11018/zhc/a2q1a_kp2 /work2/11018/zhc/stampede3/Si_scf
+++ date
+++ hostname
++ echo 'End: Fri Oct 17 09:45:03 PM CDT 2025 on c455-104.stampede3.tacc.utexas.edu'

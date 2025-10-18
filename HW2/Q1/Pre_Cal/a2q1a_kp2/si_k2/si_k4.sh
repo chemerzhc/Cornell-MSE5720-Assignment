@@ -63,7 +63,7 @@ Si 0.d0 0.d0 0.d0
 Si 0.25d0 0.25d0 0.23d0
 
 K_POINTS automatic
- 12 12 12 0 0 0
+  4 4 4 0 0 0
 EOF
 
 module purge
