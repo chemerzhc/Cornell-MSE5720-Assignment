@@ -15,9 +15,9 @@ deformations=("isotropic" "tetragonal" "trigonal")
 etas=(-0.006 -0.004 -0.002 0.0 0.002 0.004 0.006)
 
 # Base lattice vectors in alat units (diamond)
-a1=(-0.502 0.502 0.502)
-a2=(0.502 -0.502 0.502)
-a3=(0.502 0.502 -0.502)
+a1=(-0.50 0.50 0.50)
+a2=(0.50 -0.50 0.50)
+a3=(0.50 0.50 -0.50)
 
 # Functions to generate deformed CELL_PARAMETERS
 cell_isotropic() {
