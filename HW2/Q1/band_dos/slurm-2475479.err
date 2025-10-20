@@ -1,0 +1,76 @@
+mkdir: cannot create directory ‘/work2/11018/zhc/stampede3/Si_bands’: File exists
++ PREFIX=Si_bands
++ PSEUDO_DIR=/scratch/11018/zhc/Assisgnment2/Q1/1A/band_cal/
++ INFILE=Si_bands.in
++ OUTFILE=Si_bands.out
++ cat
++ module purge
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module load intel/24.0 impi/21.11
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module load qe/7.3
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module list
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+
+Currently Loaded Modules:
+  1) intel/24.0   2) impi/21.11   3) qe/7.3
+
+ 
+
++ unset __lmod_sh_dbg
++ return 0
++ ibrun pw.x
++ INFILE=Si_bands.bands.in
++ OUTFILE=Si_bands.bands.out
++ cat
++ ibrun pw.x
++ INFILE=Si_bands.plot.in
++ OUTFILE=Si_bands.plot.out
++ cat
++ ibrun bands.x
++ INFILE=Si_bands.dos.in
++ OUTFILE=Si_bands.dos.out
++ cat
++ ibrun dos.x
++ INFILE=Si_bands.pdos.in
++ OUTFILE=Si_bands.pdos.out
++ cat
++ ibrun projwfc.x
+Abort(1) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+Abort(1) on node 4 (rank 4 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4
+Abort(1) on node 8 (rank 8 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8
++ rm '*.igk' '*.wfc*'
+rm: cannot remove '*.igk': No such file or directory
+rm: cannot remove '*.wfc*': No such file or directory
++ rm -r Si_bands.save
++ mv /scratch/11018/zhc/bands /scratch/11018/zhc/2abands
++ cd /scratch/11018/zhc/Assisgnment2/Q1/1A/band_cal
++ mv slurm-2475479.err slurm-2475479.out /scratch/11018/zhc/2abands
++ echo 'Copying results to /work2/11018/zhc/stampede3/Si_bands to save after job is done'
++ cp -rp /scratch/11018/zhc/2abands /work2/11018/zhc/stampede3/Si_bands
+++ date
+++ hostname
++ echo 'End: Fri Oct 17 11:15:24 PM CDT 2025 on c454-004.stampede3.tacc.utexas.edu'

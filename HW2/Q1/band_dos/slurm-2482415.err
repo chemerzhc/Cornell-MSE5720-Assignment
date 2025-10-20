@@ -1,0 +1,73 @@
++ PREFIX=Si_bands
++ PSEUDO_DIR=/scratch/11018/zhc/Assisgnment2/Q1/1A/band_cal/
++ INFILE=Si_bands.in
++ OUTFILE=Si_bands.out
++ cat
++ module purge
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module load intel/24.0 impi/21.11
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module load qe/7.3
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module list
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+
+Currently Loaded Modules:
+  1) intel/24.0   2) impi/21.11   3) qe/7.3
+
+ 
+
++ unset __lmod_sh_dbg
++ return 0
++ ibrun pw.x
++ INFILE=Si_bands.bands.in
++ OUTFILE=Si_bands.bands.out
++ cat
++ ibrun pw.x
++ INFILE=Si_bands.plot.in
++ OUTFILE=Si_bands.plot.out
++ cat
++ ibrun bands.x
++ INFILE=Si_bands.dos.in
++ OUTFILE=Si_bands.dos.out
++ cat
++ ibrun dos.x
++ INFILE=Si_bands.pdos.in
++ OUTFILE=Si_bands.pdos.out
++ cat
++ ibrun projwfc.x
++ rm '*.igk' '*.wfc*'
+rm: cannot remove '*.igk': No such file or directory
+rm: cannot remove '*.wfc*': No such file or directory
++ rm -r Si_bands.save
++ mv /scratch/11018/zhc/bands /scratch/11018/zhc/2abands
+mv: cannot move '/scratch/11018/zhc/bands' to '/scratch/11018/zhc/2abands/bands': File exists
++ cd /scratch/11018/zhc/Assisgnment2/Q1/1A/band_cal
++ mv slurm-2482415.err slurm-2482415.out /scratch/11018/zhc/2abands
++ echo 'Copying results to /work2/11018/zhc/stampede3/Si_bands_20251020 to save after job is done'
++ cp -rp /scratch/11018/zhc/2abands /work2/11018/zhc/stampede3/Si_bands_20251020
+++ date
+++ hostname
++ echo 'End: Mon Oct 20 06:17:23 PM CDT 2025 on c454-082.stampede3.tacc.utexas.edu'

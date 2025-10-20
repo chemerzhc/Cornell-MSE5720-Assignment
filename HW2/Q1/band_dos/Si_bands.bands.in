@@ -1,0 +1,42 @@
+&CONTROL
+ calculation = 'bands',
+ prefix='Si_bands',
+ pseudo_dir='/scratch/11018/zhc/Assisgnment2/Q1/1A/band_cal/',
+/
+&SYSTEM
+ ibrav=2,
+ celldm(1)=10.2d0,
+ nat=2,
+ ntyp=1,
+ nbnd=8,
+ ecutwfc=20,
+ ecutrho=300,
+ occupations = 'fixed',
+ use_all_frac = .true.,
+/
+&ELECTRONS
+ conv_thr = 1.0D-8,
+ mixing_mode = 'plain',
+ mixing_beta = 0.7d0,
+ diagonalization = 'cg',
+/
+&IONS
+ ion_dynamics='bfgs',
+/
+&CELL
+ cell_dynamics = 'bfgs',
+ press=0.d0,
+/
+ATOMIC_SPECIES
+Si 28.0855d0 Si_LDA.UPF
+
+ATOMIC_POSITIONS crystal
+Si 0.d0 0.d0 0.d0
+Si 0.25d0 0.25d0 0.25d0
+
+K_POINTS crystal_b 
+3
+0.5d0 0.5d0 0.5d0 20
+0.d0 0.d0 0.d0 20
+1.d0 0.d0 0.d0 20
+
