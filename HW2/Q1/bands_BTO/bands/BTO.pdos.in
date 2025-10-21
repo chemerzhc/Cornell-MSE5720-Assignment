@@ -1,0 +1,6 @@
+&PROJWFC
+ prefix='BTO',
+ Emin=-8, Emax=18, DeltaE=0.1
+ filpdos='BTO.pdos',
+ filproj='BTO.proj'
+/

@@ -1,0 +1,60 @@
+TACC:  Starting up job 2482992 
+TACC:  Starting parallel tasks... 
+
+     Program DOS v.7.3 starts on 20Oct2025 at 22:10:25 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on      10 processor cores
+     Number of MPI processes:                10
+     Threads/MPI process:                     1
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =      10
+     186451 MiB available memory on the printing compute node when the environment starts
+ 
+
+     Reading xml data from directory:
+
+     ./BTO.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PZ
+                           (   1   1   0   0   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         420     111     34                20624     2841     480
+     Max         422     112     36                20626     2844     481
+     Sum        4205    1117    349               206245    28425    4801
+ 
+     Using Slab Decomposition
+ 
+
+     Check: negative core charge=   -0.000001
+
+     negative rho (up, down):  9.081E-02 0.000E+00
+
+     Gaussian broadening (default values): ngauss,degauss=   0    0.007350
+
+ 
+     DOS          :      0.59s CPU      0.68s WALL
+
+ 
+   This run was terminated on:  22:10:26  20Oct2025            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
+TACC:  Shutdown complete. Exiting. 

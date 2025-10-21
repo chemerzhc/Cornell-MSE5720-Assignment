@@ -13,8 +13,8 @@
 #Files are copied from where the job is submitted (in $SCRATCH) to $WORK for storage since $SCRATCH is purged every 10 days
 #First create folders to store results in scratch & work
 
-results_folder=$SCRATCH/current_job #MODIFY FOR EACH JOB
-results_folder_final_name=$SCRATCH/results #MODIFY FOR EACH JOB #Name of folder when job is completed
+results_folder=$SCRATCH/bands #MODIFY FOR EACH JOB
+results_folder_final_name=$SCRATCH/20251020BTO #MODIFY FOR EACH JOB #Name of folder when job is completed
 mkdir $results_folder
 work_results_folder=$WORK/SrTiO3 #MODIFY FOR EACH JOB #Folder in $WORK where results are saved
 mkdir $work_results_folder
@@ -31,7 +31,7 @@ echo "Current directory: $PWD"
 set -x   # Echo commands, use set echo with csh
 
 PREFIX="BTO"
-PSEUDO_DIR="PUT YOUR DIRECTORY HERE"
+PSEUDO_DIR="/scratch/11018/zhc/Assisgnment2/Q1/1D/band_bto/"
 INFILE="$PREFIX.in"
 OUTFILE="$PREFIX.out"
 

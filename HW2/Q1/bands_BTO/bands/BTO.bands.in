@@ -1,7 +1,7 @@
 &CONTROL
  calculation = 'bands',
  prefix='BTO',
- pseudo_dir='PUT YOUR DIRECTORY HERE',
+ pseudo_dir='/scratch/11018/zhc/Assisgnment2/Q1/1D/band_bto/',
 /
 &SYSTEM
  ibrav=1,

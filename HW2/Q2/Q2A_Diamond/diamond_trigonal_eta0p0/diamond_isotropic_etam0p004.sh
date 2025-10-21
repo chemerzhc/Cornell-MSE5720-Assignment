@@ -51,8 +51,8 @@ cat > $INFILE << EOF
  celldm(1)=6.68d0,
  nat=2,
  ntyp=1,
- ecutwfc=50,
- ecutrho=500,
+ ecutwfc=100,
+ ecutrho=1500,
  occupations = 'fixed',
  use_all_frac = .true.,
 /
@@ -77,7 +77,7 @@ C 0.d0 0.d0 0.d0
 C 0.2492943451d0 0.2492943451d0 0.2492943451d0
 
 K_POINTS automatic
-  4 4 4 0 0 0
+  6 6 6 0 0 0
 
 CELL_PARAMETERS alat
 -0.498000000000d0  0.498000000000d0  0.498000000000d0
