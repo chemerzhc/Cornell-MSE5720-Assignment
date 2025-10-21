@@ -1,6 +1,0 @@
-mkdir: cannot create directory ‘/work2/11018/zhc/stampede3/Diamond’: File exists
-+ PREFIX=Diamond_k1
-+ PSEUDO_DIR=/scratch/11018/zhc/Assisgnment2/Q2/Diamond/Diamond/
-+ INFILE=Diamond_k1.in
-+ OUTFILE=Diamond_k1.out
-+ cat
