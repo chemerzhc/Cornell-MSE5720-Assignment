@@ -1,0 +1,5 @@
+&BANDS
+ prefix='BTO',
+ filband="Si.bandsplot"
+/
+

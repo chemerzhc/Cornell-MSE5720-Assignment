@@ -1,0 +1,5 @@
+&DOS
+ prefix='BTO',
+ fildos='BTO.dos'
+ Emin=-8, Emax=18, DeltaE=0.1 
+/

@@ -47,7 +47,7 @@ cat > $INFILE << EOF
  disk_io = 'low',
 /
 &SYSTEM
- ibrav=0,
+ ibrav=2,
  celldm(1)=6.68d0,
  nat=2,
  ntyp=1,
