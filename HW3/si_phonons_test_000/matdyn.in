@@ -1,0 +1,12 @@
+&input
+flfrc='silicon.fc',
+flfrq='silicon.freq',
+q_in_band_form=.true.,
+q_in_cryst_coord=.true.,
+/
+5
+0.d0 0.d0 0.d0 100
+0.5d0 0.d0 0.5d0 100
+0.5d0 0.5d0 0.5d0 100
+0.375d0 0.375d0 0.75d0 100
+0.d0 0.d0 0.d0

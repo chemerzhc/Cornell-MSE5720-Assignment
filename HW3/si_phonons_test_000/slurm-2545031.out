@@ -1,0 +1,69 @@
+/var/spool/slurmd/job2545031/slurm_script: line 15: FOR: command not found
+mkdir: cannot create directory ‘/scratch/11018/zhc/si_phonons_test_000’: File exists
+mkdir: cannot create directory ‘/work2/11018/zhc/stampede3/Si_phonons’: File exists
++ PREFIX=Si
++ PSEUDO_DIR=/scratch/11018/zhc/Assisgnment2/Q2/Si/
++ INFILE=Si.in
++ OUTFILE=Si.out
++ cat
++ module purge
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module load intel/24.0 impi/21.11
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module load qe/7.3
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module list
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+
+Currently Loaded Modules:
+  1) intel/24.0   2) impi/21.11   3) qe/7.3
+
+ 
+
++ unset __lmod_sh_dbg
++ return 0
++ ibrun pw.x
++ INFILE=Si.phon.in
++ OUTFILE=Si.phon.out
++ cat
++ ibrun ph.x
+Abort(1) on node 3 (rank 3 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
++ rm '*.igk' '*.wfc*'
+rm: cannot remove '*.igk': No such file or directory
+rm: cannot remove '*.wfc*': No such file or directory
++ rm -r '*.save'
+rm: cannot remove '*.save': No such file or directory
++ mv /scratch/11018/zhc/si_phonons_test_000
+mv: missing destination file operand after '/scratch/11018/zhc/si_phonons_test_000'
+Try 'mv --help' for more information.
++ cd /scratch/11018/zhc/assisgnment3/Q3/Q3A/+0.05
++ mv slurm-2545031.err slurm-2545031.out
++ echo 'Copying results to /work2/11018/zhc/stampede3/Si_phonons to save after job is done'
++ cp -rp /work2/11018/zhc/stampede3/Si_phonons
+cp: missing destination file operand after '/work2/11018/zhc/stampede3/Si_phonons'
+Try 'cp --help' for more information.
+++ date
+++ hostname
++ echo 'End: Wed Nov 12 03:05:49 PM CST 2025 on c455-011.stampede3.tacc.utexas.edu'

@@ -1,0 +1,3 @@
+/var/spool/slurmd/job2545041/slurm_script: line 15: FOR: command not found
+mkdir: cannot create directory ‘/scratch/11018/zhc/si_phonons_test_000’: File exists
+mkdir: cannot create directory ‘/work2/11018/zhc/stampede3/Si_phonons’: File exists
