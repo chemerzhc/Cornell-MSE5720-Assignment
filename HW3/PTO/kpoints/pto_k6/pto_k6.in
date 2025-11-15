@@ -1,0 +1,49 @@
+&CONTROL
+ calculation = 'relax',
+ restart_mode = 'from_scratch',
+ prefix="pto_k6",
+ pseudo_dir='/scratch/11018/zhc/assisgnment3/input_files/',
+ tstress=.true.,
+ tprnfor=.true.,
+/
+&SYSTEM
+ ibrav=0,
+ nat=5,
+ ntyp=3,
+ ecutwfc=50,
+ ecutrho=500,
+ occupations = 'fixed'
+/
+&ELECTRONS
+ conv_thr = 1.0D-8,
+ mixing_mode = 'plain',
+ mixing_beta = 0.7d0,
+ diagonalization = 'cg',
+/
+&IONS
+ ion_dynamics='bfgs',
+/
+&CELL
+ cell_dynamics = 'bfgs',
+ press=0.d0,
+/
+ATOMIC_SPECIES
+ Pb 207.2d0 Pb_LDA.UPF
+ Ti 47.88d0 Ti_LDA.UPF
+ O  16.00d0 O_LDA.UPF
+
+CELL_PARAMETERS angstrom 
+   3.9d0   0.000000000   0.000000000
+   0.000000000   3.9d0   0.000000000
+   0.000000000   0.000000000  4.1d0 
+
+ATOMIC_POSITIONS crystal
+Pb       0.000000000d0   0.000000000d0   1.006422508d0
+Ti       0.500000000d0   0.500000000d0   0.540423697d0
+O        0.500000000d0   0.500000000d0   0.098580301d0
+O        0.500000000d0   0.000000000d0   0.610928891d0
+O        0.000000000d0   0.500000000d0   0.610928891d0
+
+K_POINTS automatic
+  6 6 6 0 0 0
+
