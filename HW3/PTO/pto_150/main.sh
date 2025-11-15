@@ -1,0 +1,30 @@
+#!/bin/bash
+
+sbatch pto_20.sh
+sleep 40
+sbatch pto_30.sh
+sleep 40
+sbatch pto_40.sh
+sleep 40
+sbatch pto_50.sh
+sleep 40
+sbatch pto_60.sh
+sleep 40
+sbatch pto_70.sh
+sleep 40
+sbatch pto_80.sh
+sleep 40
+sbatch pto_90.sh
+sleep 40
+sbatch pto_100.sh
+sleep 40
+sbatch pto_110.sh
+sleep 40
+sbatch pto_120.sh
+sleep 40
+sbatch pto_130.sh
+sleep 40
+sbatch pto_140.sh
+sleep 40
+sbatch pto_150.sh
+sleep 40
