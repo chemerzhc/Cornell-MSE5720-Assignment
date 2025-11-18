@@ -1,0 +1,61 @@
+mkdir: cannot create directory ‘/scratch/11018/zhc/pto_T1_eta0p0’: File exists
+mkdir: cannot create directory ‘/work2/11018/zhc/stampede3/qe_test’: File exists
++ PREFIX=pto_T1_eta0p0
++ PSEUDO_DIR=/scratch/11018/zhc/assisgnment3/input_files/
++ INFILE=pto_T1_eta0p0.in
++ OUTFILE=pto_T1_eta0p0.out
++ cat
++ module purge
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module load intel/24.0 impi/21.11
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module load qe/7.3
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
++ unset __lmod_sh_dbg
++ return 0
++ module list
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+
+Currently Loaded Modules:
+  1) intel/24.0   2) impi/21.11   3) qe/7.3
+
+ 
+
++ unset __lmod_sh_dbg
++ return 0
++ ibrun pw.x
++ rm '*.igk' '*.wfc*' pto_T1_eta0p0.xml
+rm: cannot remove '*.igk': No such file or directory
+rm: cannot remove '*.wfc*': No such file or directory
++ rm -r pto_T1_eta0p0.save
++ mv /scratch/11018/zhc/pto_T1_eta0p0 /scratch/11018/zhc/PTO/PTO_T1
+mv: cannot move '/scratch/11018/zhc/pto_T1_eta0p0' to '/scratch/11018/zhc/PTO/PTO_T1': No such file or directory
++ cd /scratch/11018/zhc/assisgnment3/Q3/Q3C/PTO_strain/T1
++ mv slurm-2560838.err slurm-2560838.out /scratch/11018/zhc/PTO/PTO_T1
+mv: target '/scratch/11018/zhc/PTO/PTO_T1' is not a directory
++ echo 'Copying results to /work2/11018/zhc/stampede3/qe_test to save after job is done'
++ cp -rp /scratch/11018/zhc/PTO/PTO_T1 /work2/11018/zhc/stampede3/qe_test
+cp: cannot stat '/scratch/11018/zhc/PTO/PTO_T1': No such file or directory
+++ date
+++ hostname
++ echo 'End: Tue Nov 18 12:05:32 AM CST 2025 on c454-101.stampede3.tacc.utexas.edu'
