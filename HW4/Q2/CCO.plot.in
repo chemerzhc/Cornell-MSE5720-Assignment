@@ -1,0 +1,5 @@
+&BANDS
+ prefix='CCO',
+ filband="CCO.bandsplot"
+/
+

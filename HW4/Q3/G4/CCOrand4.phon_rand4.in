@@ -1,0 +1,12 @@
+Phonons of CaCO3
+&inputph
+ tr2_ph=1.0d-16,
+ amass(1)=40.078d0,
+ amass(2)=12.0107d0,
+ amass(3)=15.999d0,
+ ldisp=.false.,
+ epsil=.true.,
+ prefix='CCOrand4',
+ fildyn='calcite.rand4.dyn',
+/
+0.d0 0.d0 0.d0

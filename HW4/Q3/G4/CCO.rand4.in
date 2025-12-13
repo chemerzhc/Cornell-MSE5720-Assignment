@@ -1,0 +1,49 @@
+&CONTROL
+ calculation = 'relax',
+ restart_mode = 'from_scratch',
+ prefix='CCOrand4',
+ pseudo_dir='./',
+ tstress=.true.,
+ tprnfor=.true.,
+/
+&SYSTEM
+ ibrav=5,
+ celldm(1)=11.7517,
+ celldm(4)=0.6542,
+ nat=10,
+ ntyp=3,
+ ecutwfc=70,
+ occupations = 'fixed'
+/
+&ELECTRONS
+ conv_thr = 1.0D-8,
+ mixing_mode = 'plain',
+ mixing_beta = 0.7d0,
+ diagonalization = 'cg',
+/
+&IONS
+ ion_dynamics='bfgs',
+/
+&CELL
+ cell_dynamics = 'bfgs',
+ press=0.1d0,
+/
+ATOMIC_SPECIES
+ Ca 40.078d0 Ca_PBE.UPF
+ C 12.0107d0 C_PBE.UPF
+ O 16.00d0 O_PBE.UPF
+
+ATOMIC_POSITIONS (crystal)
+Ca       0.500000000   0.500000000   0.500000000
+Ca       0.000000000  -0.000000000   0.000000000
+C        0.250000000   0.250000000   0.250000000
+C        0.750000000   0.750000000   0.750000000
+O        0.507016955   0.992983045   0.250000000
+O        0.992983045   0.250000000   0.507016955
+O        0.250000000   0.507016955   0.992983045
+O        0.007016955   0.750000000   0.492983045
+O        0.750000000   0.492983045   0.007016955
+O        0.492983045   0.007016955   0.750000000
+
+K_POINTS automatic
+  5 5 5 0 0 0

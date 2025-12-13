@@ -1,0 +1,12 @@
+Phonons of CaCO3
+&inputph
+ tr2_ph=1.0d-16,
+ amass(1)=100.08d0,
+ ldisp=.false.,
+ nq1=4,nq2=4,nq3=4,
+ prefix='cco',
+ fildyn='cco.dyn',
+/
+0.d0 0.d0 0.d0
+/
+

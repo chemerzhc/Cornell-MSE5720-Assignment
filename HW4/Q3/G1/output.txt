@@ -1,0 +1,74 @@
+[0] MPI startup(): I_MPI_JOB_FAST_STARTUP variable has been removed from the product, its value is ignored
+
+[0] MPI startup(): I_MPI_OFI_LIBRARY variable has been removed from the product, its value is ignored
+
+
+     Program DYNMAT v.7.0 starts on  4May2022 at 16:49:32 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     1 processors
+
+     MPI processes distributed on     1 nodes
+     3165 MiB available memory on the printing compute node when the environment starts
+ 
+
+     Reading Dynamical Matrix from file calcite.rand1.dyn
+     ...Force constants read
+     ...epsilon and Z* read
+
+     Polarizability (A^3 units)
+     multiply by 0.627781 for Clausius-Mossotti correction
+        20.379710    0.000000    0.000000
+         0.000000   20.379710    0.000000
+         0.000000    0.000000   12.890456
+
+     IR activities are in (D/A)^2/amu units
+
+# mode   [cm-1]    [THz]      IR
+    1      7.79    0.2334    0.0000
+    2      8.35    0.2504    0.0000
+    3      8.36    0.2505    0.0000
+    4    114.39    3.4294    2.4885
+    5    153.01    4.5871    2.3211
+    6    162.45    4.8701    0.1114
+    7    168.95    5.0650    0.0000
+    8    168.95    5.0650    0.0000
+    9    197.45    5.9194    2.2978
+   10    204.17    6.1209    0.0864
+   11    217.49    6.5201    0.0000
+   12    230.68    6.9157    0.0000
+   13    232.07    6.9573    7.7838
+   14    238.40    7.1470   11.4811
+   15    273.45    8.1977    0.0000
+   16    273.45    8.1977    0.0000
+   17    277.45    8.3178    0.0000
+   18    351.60   10.5406   10.1986
+   19    673.37   20.1870    0.0000
+   20    673.37   20.1870    0.0000
+   21    674.90   20.2329    0.1909
+   22    675.63   20.2549    0.1656
+   23    823.12   24.6765    2.3151
+   24    824.70   24.7239    0.0000
+   25   1047.42   31.4009    0.0000
+   26   1048.11   31.4215    0.0000
+   27   1347.07   40.3843   71.5828
+   28   1386.71   41.5726    0.0000
+   29   1386.71   41.5726    0.0000
+   30   1493.72   44.7807   77.3116
+ 
+     DYNMAT       :      0.01s CPU      0.21s WALL
+
+ 
+   This run was terminated on:  16:49:32   4May2022            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

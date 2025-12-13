@@ -1,0 +1,6 @@
+&PROJWFC
+ prefix='CCO',
+ Emin=-8, Emax=18, DeltaE=0.1
+ filpdos='CCO.pdos',
+ filproj='CCO.proj'
+/

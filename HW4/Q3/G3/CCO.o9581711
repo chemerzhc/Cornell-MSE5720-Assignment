@@ -1,0 +1,49 @@
++ PREFIX=CCOrand3
++ PSEUDO_DIR=./
++ INFILE=CCOrand3.in
++ OUTFILE=CCOrand3.out
++ cat
++ module load intel/17.0.4
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+The following have been reloaded with a version change:
+  1) impi/18.0.2 => impi/17.0.3       3) python2/2.7.15 => python2/2.7.14
+  2) intel/18.0.2 => intel/17.0.4
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load impi/17.0.3
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load qe/6.4.1
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ ibrun pw.x
++ INFILE=CCOrand3.phon_rand3.in
++ OUTFILE=CCOrand3.phon_rand3.out
++ cat
++ ibrun ph.x -ndiag 1
++ rm '*.igk' CCOrand3.wfc1 CCOrand3.wfc10 CCOrand3.wfc100 CCOrand3.wfc101 CCOrand3.wfc102 CCOrand3.wfc103 CCOrand3.wfc104 CCOrand3.wfc105 CCOrand3.wfc106 CCOrand3.wfc107 CCOrand3.wfc108 CCOrand3.wfc109 CCOrand3.wfc11 CCOrand3.wfc110 CCOrand3.wfc111 CCOrand3.wfc112 CCOrand3.wfc113 CCOrand3.wfc114 CCOrand3.wfc115 CCOrand3.wfc116 CCOrand3.wfc117 CCOrand3.wfc118 CCOrand3.wfc119 CCOrand3.wfc12 CCOrand3.wfc120 CCOrand3.wfc13 CCOrand3.wfc14 CCOrand3.wfc15 CCOrand3.wfc16 CCOrand3.wfc17 CCOrand3.wfc18 CCOrand3.wfc19 CCOrand3.wfc2 CCOrand3.wfc20 CCOrand3.wfc21 CCOrand3.wfc22 CCOrand3.wfc23 CCOrand3.wfc24 CCOrand3.wfc25 CCOrand3.wfc26 CCOrand3.wfc27 CCOrand3.wfc28 CCOrand3.wfc29 CCOrand3.wfc3 CCOrand3.wfc30 CCOrand3.wfc31 CCOrand3.wfc32 CCOrand3.wfc33 CCOrand3.wfc34 CCOrand3.wfc35 CCOrand3.wfc36 CCOrand3.wfc37 CCOrand3.wfc38 CCOrand3.wfc39 CCOrand3.wfc4 CCOrand3.wfc40 CCOrand3.wfc41 CCOrand3.wfc42 CCOrand3.wfc43 CCOrand3.wfc44 CCOrand3.wfc45 CCOrand3.wfc46 CCOrand3.wfc47 CCOrand3.wfc48 CCOrand3.wfc49 CCOrand3.wfc5 CCOrand3.wfc50 CCOrand3.wfc51 CCOrand3.wfc52 CCOrand3.wfc53 CCOrand3.wfc54 CCOrand3.wfc55 CCOrand3.wfc56 CCOrand3.wfc57 CCOrand3.wfc58 CCOrand3.wfc59 CCOrand3.wfc6 CCOrand3.wfc60 CCOrand3.wfc61 CCOrand3.wfc62 CCOrand3.wfc63 CCOrand3.wfc64 CCOrand3.wfc65 CCOrand3.wfc66 CCOrand3.wfc67 CCOrand3.wfc68 CCOrand3.wfc69 CCOrand3.wfc7 CCOrand3.wfc70 CCOrand3.wfc71 CCOrand3.wfc72 CCOrand3.wfc73 CCOrand3.wfc74 CCOrand3.wfc75 CCOrand3.wfc76 CCOrand3.wfc77 CCOrand3.wfc78 CCOrand3.wfc79 CCOrand3.wfc8 CCOrand3.wfc80 CCOrand3.wfc81 CCOrand3.wfc82 CCOrand3.wfc83 CCOrand3.wfc84 CCOrand3.wfc85 CCOrand3.wfc86 CCOrand3.wfc87 CCOrand3.wfc88 CCOrand3.wfc89 CCOrand3.wfc9 CCOrand3.wfc90 CCOrand3.wfc91 CCOrand3.wfc92 CCOrand3.wfc93 CCOrand3.wfc94 CCOrand3.wfc95 CCOrand3.wfc96 CCOrand3.wfc97 CCOrand3.wfc98 CCOrand3.wfc99
+rm: cannot remove ‘*.igk’: No such file or directory
++ rm -r CCOrand3.save
++ rm -r _ph0

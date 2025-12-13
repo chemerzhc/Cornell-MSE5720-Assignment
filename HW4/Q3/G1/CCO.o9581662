@@ -1,0 +1,527 @@
++ PREFIX=CCOrand1
++ PSEUDO_DIR=./
++ INFILE=CCOrand1.in
++ OUTFILE=CCOrand1.out
++ cat
++ module load intel/19.1.1
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+Inactive Modules:
+  1) python2
+
+The following have been reloaded with a version change:
+  1) impi/18.0.2 => impi/19.0.9     2) intel/18.0.2 => intel/19.1.1
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load mvapich2/2.3.6
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Lmod has detected the following error: The following module(s) are unknown:
+"mvapich2/2.3.6"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "mvapich2/2.3.6"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 1
++ module load impi/19.0.7
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+The following have been reloaded with a version change:
+  1) impi/19.0.9 => impi/19.0.7
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load qe/7.0
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ ibrun pw.x
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 77 (rank 77 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 77
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 78 (rank 78 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 78
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 81 (rank 81 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 81
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 84 (rank 84 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 84
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 86 (rank 86 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 86
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 88 (rank 88 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 88
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 91 (rank 91 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 91
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 92 (rank 92 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 92
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 94 (rank 94 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 94
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 95 (rank 95 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 95
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 96 (rank 96 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 96
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 97 (rank 97 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 97
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 98 (rank 98 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 98
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 99 (rank 99 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 99
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 100 (rank 100 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 100
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 101 (rank 101 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 101
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 102 (rank 102 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 102
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 103 (rank 103 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 103
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 104 (rank 104 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 104
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 105 (rank 105 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 105
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 107 (rank 107 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 107
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 108 (rank 108 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 108
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 109 (rank 109 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 109
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 110 (rank 110 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 110
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 111 (rank 111 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 111
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 112 (rank 112 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 112
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 113 (rank 113 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 113
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 115 (rank 115 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 115
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 116 (rank 116 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 116
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  fft_type_set (6):
+  there are processes with no planes. Use pencil decomposition (-pd .true.)
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+Abort(6) on node 117 (rank 117 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 117
+Abort(6) on node 64 (rank 64 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 64
+Abort(6) on node 65 (rank 65 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 65
+Abort(6) on node 66 (rank 66 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 66
+Abort(6) on node 67 (rank 67 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 67
+Abort(6) on node 68 (rank 68 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 68
+Abort(6) on node 69 (rank 69 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 69
+Abort(6) on node 70 (rank 70 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 70
+Abort(6) on node 71 (rank 71 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 71
+Abort(6) on node 72 (rank 72 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 72
+Abort(6) on node 73 (rank 73 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 73
+Abort(6) on node 74 (rank 74 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 74
+Abort(6) on node 75 (rank 75 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 75
+Abort(6) on node 76 (rank 76 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 76
+Abort(6) on node 79 (rank 79 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 79
+Abort(6) on node 80 (rank 80 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 80
+Abort(6) on node 82 (rank 82 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 82
+Abort(6) on node 83 (rank 83 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 83
+Abort(6) on node 85 (rank 85 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 85
+Abort(6) on node 87 (rank 87 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 87
+Abort(6) on node 89 (rank 89 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 89
+Abort(6) on node 90 (rank 90 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 90
+Abort(6) on node 93 (rank 93 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 93
+Abort(6) on node 106 (rank 106 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 106
+Abort(6) on node 114 (rank 114 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 114
+Abort(6) on node 118 (rank 118 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 118
+Abort(6) on node 119 (rank 119 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 6) - process 119
++ INFILE=CCOrand1.phon_rand1.in
++ OUTFILE=CCOrand1.phon_rand1.out
++ cat
++ ibrun ph.x -ndiag 1
+Abort(1) on node 23 (rank 23 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 23
++ rm '*.igk' CCO_rand1.wfc1 CCOrand1.wfc1
+rm: cannot remove ‘*.igk’: No such file or directory
++ rm -r '*.save'
+rm: cannot remove ‘*.save’: No such file or directory
++ rm -r _ph0
